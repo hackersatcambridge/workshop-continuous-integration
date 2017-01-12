@@ -3,7 +3,7 @@ This repository contains the learning materials for the workshop on how to creat
 
 ## What will be covered
 
-- What is Continuous Integration?
+- [What is Continuous Integration?](#what-is-continuous-integration-ci)
 - What needs to be achieved to get a CI workflow?
 - What else can be done with CI?
 - CI example workflow
