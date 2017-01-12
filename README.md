@@ -1,7 +1,15 @@
 # Continuous Integration Workshop
 This repository contains the learning materials for the workshop on how to create a continuous integration workflow. The skills being taught apply to a variety of languages, tools and setups. But Gradle, Java, Git and Travis CI form the foundation of this workshop.
 
-## What is Continuous Integration (CI)
+## What will be covered
+
+- What is Continuous Integration?
+- What needs to be achieved to get a CI workflow?
+- What else can be done with CI?
+- CI example workflow
+- Downsides to CI
+
+## What is Continuous Integration (CI)?
 [Wikipedia][1] tells us that:
 
 >In software engineering, continuous integration (CI) is the practice of merging all developer working copies to a shared mainline several times a day
