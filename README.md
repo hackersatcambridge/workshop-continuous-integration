@@ -44,7 +44,7 @@ GitHub!
 
 ## What is Continuous Integration (CI)?
 [Wikipedia][1] tells us that:
-
+"N"
 >In software engineering, continuous integration (CI) is the practice of merging all developer working copies to a shared mainline several times a day
 
 This however, although true, doesn't really tell us:
@@ -59,6 +59,17 @@ This however, although true, doesn't really tell us:
  However, achieving that workflow takes more than a top-down command demanding that it be done from the management, it requires many other problems to be solved before it can be achieved. It has to be easy to do, otherwise it will detract from other aspects from development.
 
  On the other hand, once it has been achieve, other neat bonuses spring out, like the ability to regularly test contributions to the shared mainline, test the mainline itself and of course, have newer features in the software tested more quickly by people, as the entire team will be using them sooner rather than later.
+
+
+## Getting started
+
+This workshop can be completed in either pairs or individually.
+
+As part of CI is working in a team, we are going to setup a project on GitHub
+that can be collaborated on. To do this, sign in to GitHub and click on the
+"+" button and select "New organisation". This essentially creates a new user,
+which can be controlled by team. If you are in pair, one of you should do this
+and add the other to the organisation.
 
 
 [1]:https://en.wikipedia.org/wiki/Continuous_integration
