@@ -7,13 +7,13 @@ If you want to follow along in the workshop, please make sure you have the
 following installed on your machine:
 
 
-- Git
-  - Windows:
-    - https://git-scm.com/download/win
-  - Mac:
-    - https://git-scm.com/download/mac
-  - Linux:
-    - Use your favorite package manager!
+ - Git
+   - Windows:
+     - https://git-scm.com/download/win
+   - Mac:
+     - https://git-scm.com/download/mac
+   - Linux:
+     - Use your favorite package manager!
  - Java JDK:
    - [Download Here](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
  - Gradle
