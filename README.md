@@ -26,8 +26,8 @@ following installed on your machine:
       - Use Homebrew: http://brewformulas.org/Gradle
    - Linux:
       - Ubuntu: `sudo apt-get install gradle`
-  - Your favorite text editor or IDE!
-    - We will be using [Atom](https://atom.io/), but what you use is not
+ - Your favorite text editor or IDE!
+   - We will be using [Atom](https://atom.io/), but what you use is not
       important as long as you are comfortable.
 
 Also make sure you have an account on [this website](https://github.com/join),
