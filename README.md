@@ -5,6 +5,8 @@ create a continuous integration workflow. The skills being taught apply to a
 variety of languages, tools and setups. But Gradle, Java, Git and Travis CI form
 the foundation of this workshop.
 
+The feedback form is available [here](https://goo.gl/forms/qyntiFjcL56Kbiq83)
+
 ## Requirements and Preparation
 
 If you want to follow along in the workshop, please make sure you have the
