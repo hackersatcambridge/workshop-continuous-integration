@@ -7,6 +7,8 @@ the foundation of this workshop.
 
 The feedback form is available [here](https://goo.gl/forms/qyntiFjcL56Kbiq83)
 
+Ask questions live [here](http://goo.gl/slides/mueqjk)
+
 ## Requirements and Preparation
 
 If you want to follow along in the workshop, please make sure you have the
