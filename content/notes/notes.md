@@ -1,22 +1,3 @@
-# Continuous Integration Workshop
-
-This repository contains the learning materials for the workshop on how to
-create a continuous integration workflow. The skills being taught apply to a
-variety of languages, tools and setups. However, Gradle, Java, Git and Travis CI form
-the foundation of this workshop.
-
-The feedback form is available [here](https://goo.gl/forms/qyntiFjcL56Kbiq83)
-
-Ask questions live [here](http://goo.gl/slides/mueqjk)
-
-## What will be covered
-
-- [What is Continuous Integration?](#what-is-continuous-integration-ci)
-- What needs to be achieved to get a CI workflow?
-- What else can be done with CI?
-- CI example workflow
-- Downsides to CI
-
 ## What is Continuous Integration (CI)?
 
 [Wikipedia][1] tells us that:
