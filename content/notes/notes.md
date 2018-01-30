@@ -217,6 +217,8 @@ Travis is a great system for running tests online and is free to use for open so
 
 First, let's head to [Travis CI](https://travis-ci.org). Log in with your GitHub account, click on your name in the top right hand corner, and head to your profile. There should be a list of your repositories and switches next to them. Activate our CI Workshop repository and lets head to the main page.
 
+![Travis Repository Switch](images/travis-switch.png)
+
 You should now have an empty section for the build of your project - there's only one step left to go now!
 
 If we head to the [documentation](https://docs.travis-ci.com/user/languages/java), then we can see that in order for Travis to build our project, our project needs to contain a `.travis.yml` file.
@@ -237,5 +239,19 @@ $ git commit -m "Add .travis.yml"
 $ git push
 ```
 And voila! Just like that, you should now see a build starting (and passing too hopefully)!
+
+### Adding a Build Status Badge
+Ever been researching something online and seen this...?
+
+![Travis Build Passing](images/travis-build-passing.png)
+
+You'll also notice that this appears above your latest build on Travis. It's actually super easy to add this to your GitHub page. Firstly, click on the image on the Travis webpage and click 'Markdown' from the list you are presented. Copy and paste this text into a `README.md` file and there you have it! A badge on your GitHub repository which dipslays the current build status.
+
+```bash
+$ echo "[![Build Status](https://travis-ci.org/YOUR_USERNAME/YOUR_REPO_NAME.svg?branch=master)](https://travis-ci.org/YOUR_USERNAME/YOUR_REPO_NAME)" > README.md
+$ git add README.md
+$ git commit -m "Add README"
+$ git push
+```
 
 [1]:https://en.wikipedia.org/wiki/Continuous_integration
