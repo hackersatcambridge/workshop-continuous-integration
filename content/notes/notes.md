@@ -1,56 +1,3 @@
-# Continuous Integration Workshop
-
-<<<<<<< HEAD
-This repository contains the learning materials for the workshop on how to
-create a continuous integration workflow. The skills being taught apply to a
-variety of languages, tools and setups. But Gradle, Java, Git and Travis CI form
-the foundation of this workshop.
-
-The feedback form is available [here](https://goo.gl/forms/qyntiFjcL56Kbiq83)
-
-Ask questions live [here](http://goo.gl/slides/mueqjk)
-
-## Requirements and Preparation
-
-If you want to follow along in the workshop, please make sure you have the
-following installed on your machine:
-
-
- - Git
-   - Windows:
-     - https://git-scm.com/download/win
-   - Mac:
-     - https://git-scm.com/download/mac
-   - Linux:
-     - Use your favorite package manager!
- - Java JDK:
-   - [Download Here](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
- - Gradle
-   - Windows:
-     - https://gradle.org/gradle-download/ (Download complete or binary-only
-       distro)
-     - Follow the following instructions given here:
-       http://stackoverflow.com/a/37774085/5460161
-   - Mac:
-      - Use Homebrew: http://brewformulas.org/Gradle
-   - Linux:
-      - Ubuntu: `sudo apt-get install gradle`
- - Your favorite text editor or IDE!
-   - We will be using [Atom](https://atom.io/), but what you use is not
-      important as long as you are comfortable.
-
-Also make sure you have an account on [this website](https://github.com/join),
-GitHub!
-
-
-## What will be covered
-
-- [What is Continuous Integration?](#what-is-continuous-integration-ci)
-- What needs to be achieved to get a CI workflow?
-- What else can be done with CI?
-- CI example workflow
-- Downsides to CI
-
 ## What is Continuous Integration (CI)?
 
 [Wikipedia][1] tells us that: In software engineering, continuous integration
@@ -98,9 +45,3 @@ Then click "Create new repository".
 
 
 [1]:https://en.wikipedia.org/wiki/Continuous_integration
-=======
-This is a Hackers at Cambridge workshop. This repository holds all the content to the workshop but the best way to view the content is on our website. Go to:
-```
-hackersatcambridge.com/workshops/continuous-integration
-```
->>>>>>> 5b5929362a7720160f0c4008a05a294bbe279198

@@ -1,0 +1,21 @@
+title: Continuous Integration Workshop
+
+# People who have directly contributed content to this workhsop
+contributors:
+  - Tom Read Cutting
+
+thanks: []
+
+# A set of keywords associated with the workshop
+tags:
+  - git
+  - programming
+  - travis-ci
+  - java
+
+slides_link: https://docs.google.com/presentation/d/1hHEHOKsZpr6a2CgrpsGwcA50fmbbleVchatgqy8RJo4/present?slide=id.p
+
+further_reading_links: []
+
+# A license code by which the workshop content is released
+license: MIT
