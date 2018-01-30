@@ -2,7 +2,7 @@ title: Continuous Integration Workshop
 
 # People who have directly contributed content to this workhsop
 contributors:
-  - Tom Read Cutting
+  - Tom Read Cutting, Charlie Crisp
 
 thanks: []
 
@@ -12,6 +12,7 @@ tags:
   - programming
   - travis-ci
   - java
+  - continuous-integration
 
 slides_link: https://docs.google.com/presentation/d/1hHEHOKsZpr6a2CgrpsGwcA50fmbbleVchatgqy8RJo4/present?slide=id.p
 
