@@ -1,13 +1,11 @@
 title: Continuous Integration Workshop
 
-# For an example of all the available fields, please refer to https://github.com/hackersatcambridge/workshop-example/blob/master/info/metadata.yaml
-
 # People who have directly contributed content to this workhsop
 contributors:
-  - Tom Read Cutting
-  - Charlie Crisp
-  - Lucia Bura
-  
+  - Tom Read Cutting, Charlie Crisp, Lucia Bura
+
+thanks: []
+
 # A set of keywords associated with the workshop
 tags:
   - git
@@ -15,15 +13,10 @@ tags:
   - travis-ci
   - java
   - continuous-integration
-  - tools-for-programmers
 
 slides_link: https://docs.google.com/presentation/d/1YW6LyyPAJ0lmE61zXLwOZpNnBLsAU3GkAb9ppVfMejQ/present?slide=id.p
 
-further_reading_links:
-  - text: Feedback Form
-    url: https://docs.google.com/forms/d/e/1FAIpQLSeQvOX9Sc5Q_in_lbHFAE2nKhESOYDm9-9i5CA6wJulTjvy-w/viewform?usp=sf_link
-
-
+further_reading_links: []
 
 # A license code by which the workshop content is released
 license: MIT
