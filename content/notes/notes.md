@@ -101,11 +101,6 @@ You'll now notice that you have a `/src` directory in your workspace which conta
 
 You can now continue to add classes to these directories and Gradle will know to compile them as parts of your projects.
 
-### .gitignore
-Gradle will automatically generate a lot of files locally that we do not want to check into source control, e.g. logs or per-user settings. Later on we will set this up as a git repository, and in order to stop git checking in all these files, we can add a file called `.gitignore`. This will contain a list of all the things we want git to ignore. 
-
-Head to [gitignore.io](https:gitignore.io) and type in `Gradle` to generate a `.gitignore` with the right contents for a gradle project.
-
 ## Building your Gradle project
 You may be thinking "Well this is all well and good, but how do I actually build the darned thing!?".
 
@@ -198,6 +193,26 @@ First, we need to host our code on GitHub. Initialise your directory as a git re
 
 ```bash
 $ git init
+```
+
+If we now write...
+
+```bash
+$ git status
+```
+
+...you should see Git telling you that there's a lot of `Changes not staged for commit`. Gradle has generated/built a lot of files (i.e. in the `/build` directory) that aren't part of our source code, and that we do not want other users to have. There are many reasons for not wanting to check these items into source control, including...
+ - Ideally, developers should generate any build files themselves so they aren't using old versions of the build
+ - We do not want to take lots of time to download these files when we pull from a repository
+ - They files will change whenever our code changes and if these changes are are part of the Git history then it can be hard to see what code was changed if you are sifting through lots of build files
+
+In order to tell Git to ignore these files, we can add a file called `.gitignore`. This will contain a list of all the things we want git to ignore. 
+
+Head to [gitignore.io](https:gitignore.io) and type in `Gradle` to generate a `.gitignore` with the right contents for a gradle project.
+
+Now we can continue adding our code to GitHub.
+
+```bash
 $ git add .
 $ git commit -m "Initial commit"
 ```
