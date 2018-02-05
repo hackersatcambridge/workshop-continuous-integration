@@ -208,7 +208,7 @@ $ git status
 
 In order to tell Git to ignore these files, we can add a file called `.gitignore`. This will contain a list of all the things we want git to ignore. 
 
-Head to [gitignore.io](https:gitignore.io) and type in `Gradle` to generate a `.gitignore` with the right contents for a gradle project.
+Head to [gitignore.io](https://gitignore.io) and type in `Gradle` to generate a `.gitignore` with the right contents for a gradle project.
 
 Now we can continue adding our code to GitHub.
 
