@@ -170,7 +170,7 @@ prevFib = fib;
 Now if we build our project 
 
 ```bash
-$ gradle build --info
+gradle build --info
 ``` 
 
 (`--info` allows us to see our error) then we'll get something like the following...
@@ -192,13 +192,13 @@ In most real scenarios, you'll want to do more than just building and testing a 
 First, we need to host our code on GitHub. Initialise your directory as a git repository...
 
 ```bash
-$ git init
+git init
 ```
 
 If we now write...
 
 ```bash
-$ git status
+git status
 ```
 
 ...you should see Git telling you that there's a lot of `Changes not staged for commit`. Gradle has generated/built a lot of files (i.e. in the `/build` directory) that aren't part of our source code, and that we do not want other users to have. There are many reasons for not wanting to check these items into source control, including...
@@ -213,8 +213,8 @@ Head to [gitignore.io](https://gitignore.io) and type in `Gradle` to generate a 
 Now we can continue adding our code to GitHub.
 
 ```bash
-$ git add .
-$ git commit -m "Initial commit"
+git add .
+git commit -m "Initial commit"
 ```
 
 Now head over to [GitHub](https://github.com) and create yourself a new repository.
@@ -222,8 +222,8 @@ Now head over to [GitHub](https://github.com) and create yourself a new reposito
 Lastly, add your new remote to your local repository and push your changes...
 
 ```bash
-$ git remote add origin git@github.com:INSERT_USERNAME_HERE/ci-workshop.git
-$ git push -u origin master
+git remote add origin git@github.com:INSERT_USERNAME_HERE/ci-workshop.git
+git push -u origin master
 ```
 
 ### Adding your project to Travis
@@ -241,7 +241,7 @@ If we head to the [documentation](https://docs.travis-ci.com/user/languages/java
 On unix systems, this can be done easily...
 
 ```bash
-$ echo "language: java" > .travis.yml
+echo "language: java" > .travis.yml
 ```
 
 - Note: Windows users who aren't using 'Git Bash' may find it easier to create this file using Notepad
@@ -249,9 +249,9 @@ $ echo "language: java" > .travis.yml
 Now we can check this into source control...
 
 ```bash
-$ git add .travis.yml
-$ git commit -m "Add .travis.yml" 
-$ git push
+git add .travis.yml
+git commit -m "Add .travis.yml" 
+git push
 ```
 And voila! Just like that, you should now see a build starting (and passing too hopefully)!
 
@@ -263,10 +263,10 @@ Ever been researching something online and seen this...?
 You'll also notice that this appears above your latest build on Travis. It's actually super easy to add this to your GitHub page. Firstly, click on the image on the Travis webpage and click 'Markdown' from the list you are presented. Copy and paste this text into a `README.md` file and there you have it! A badge on your GitHub repository which dipslays the current build status.
 
 ```bash
-$ echo "[![Build Status](https://travis-ci.org/YOUR_USERNAME/YOUR_REPO_NAME.svg?branch=master)](https://travis-ci.org/YOUR_USERNAME/YOUR_REPO_NAME)" > README.md
-$ git add README.md
-$ git commit -m "Add README"
-$ git push
+echo "[![Build Status](https://travis-ci.org/YOUR_USERNAME/YOUR_REPO_NAME.svg?branch=master)](https://travis-ci.org/YOUR_USERNAME/YOUR_REPO_NAME)" > README.md
+git add README.md
+git commit -m "Add README"
+git push
 ```
 
 [1]:https://en.wikipedia.org/wiki/Continuous_integration
