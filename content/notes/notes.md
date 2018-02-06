@@ -53,7 +53,7 @@ This file gives Gradle some key information it needs in order to perform a build
 Plugins provide functionality that will help us as a developer. For instance, they add new tasks (e.g. JavaCompile), conventions (e.g. Java source is located at src/main/java), etc.
 
 Gradle automatically adds the `java-library` plugin that allows us to do things like building and testing our project...
-```groovy
+```gradle
 plugins {
     id 'java-library'
 }
@@ -61,7 +61,7 @@ plugins {
 #### Dependencies
 Here we can declare the external code that our project needs in order to run. Gradle has generated some example dependencies which serve different purposes. The first is exposed to end users, the second to developers only, and the last is only used during testing.
 
-```groovy
+```gradle
 dependencies {
     // This dependency is exported to consumers, that is to say found on their compile classpath.
     api 'org.apache.commons:commons-math3:3.6.1'
@@ -76,7 +76,7 @@ dependencies {
 #### Repositories
 This tells Gradle how it can find dependencies. Here Gradle has defaulted to JCenter which is an online place to share and distribute packages.
 
-```groovy
+```gradle
 repositories {
     jcenter()
 }
@@ -92,7 +92,7 @@ The contents of these files is not important, but they allow developers who don'
 
 This file is another `Groovy` script which allows you to specify which projects to include in your build. It means that you can specify an arbitrary file structure for the projects in your build. The automatically generated file is pretty self explanatory...
 
-```groovy
+```gradle
 rootProject.name = 'examples'
 ```
 
