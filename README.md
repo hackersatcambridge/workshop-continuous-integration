@@ -1,6 +1,5 @@
-# Continuous Integration Workshop
+# [Continuous Integration Workshop Materials](https://hackersatcambridge.com/workshops/continuous-integration)
 
-This is a Hackers at Cambridge workshop. This repository holds all the content to the workshop but the best way to view the content is on our website. Go to:
-```
-hackersatcambridge.com/workshops/continuous-integration
-```
+This repository contains all the examples and code for the Hackers at Cambridge [continuous integration workshop](https://hackersatcambridge.com/workshops/continuous-integration), click on the link to find out more.
+
+You can also view more workshops [here](https://hackersatcambridge.com/workshops).
